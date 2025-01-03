@@ -28,3 +28,30 @@ const myFunction = function(){
     console.log("Hello World");
     
 }
+
+// **********************************
+// Stack (Primitive) copy milta hai
+// and Heap(Non Primitive) reference milta hai 
+
+let my="Manish Kadyan"
+
+let other= my;
+
+
+other="Kadyan"
+console.log(my);
+
+console.log(other);
+
+let userOne= {
+    email:"abs@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo= userOne 
+
+userTwo.email="manish@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
