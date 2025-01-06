@@ -36,7 +36,7 @@ const myFunction = function(){
 let my="Manish Kadyan"
 
 let other= my;
-
+// example of Deep copy
 
 other="Kadyan"
 console.log(my);
@@ -49,6 +49,7 @@ let userOne= {
 }
 
 let userTwo= userOne 
+// example of Shallow copy
 
 userTwo.email="manish@gmail.com"
 
