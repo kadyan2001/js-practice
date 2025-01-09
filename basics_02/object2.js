@@ -43,11 +43,41 @@ const users=[
 ]
 
 users[1].email;
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(Object.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(Object.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor: "afb"
+
+}
+
+// course.courseInstructor
+// Object destructiring
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+
+console.log(instructor); //destructuring
+
+// Api is just a simple object in the form of json format
+// like this syntax for json file
+// {
+//     "name": "manish",
+//     "fullname": "Manish Kadyan",
+//     "nickname": "bbvev"
+
+// }
+
+// api also is in array format
+[
+    {},
+    {},
+    {}
+]
