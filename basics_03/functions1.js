@@ -31,3 +31,36 @@ function loginUsermessage (username){
 
 // console.log(loginUsermessage("mahi"));
 console.log(loginUsermessage("mahi"))
+
+
+// for infinite number of arguments
+// rest operator (...)
+function calculatecartPrice(val1 , val2, ...num1){
+    return num1
+}
+
+console.log(calculatecartPrice(200,400,600,800));
+
+const user = {
+    name:"manish",
+    age: 23
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and age is ${anyobject.age}`);
+    
+}
+
+// handleObject(user)
+ handleObject({
+    username: "Manish",
+    age: 23
+  })
+
+const mynewArray = [200, 100, 2000,33]
+
+function returnSecondvlaue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondvlaue(mynewArray));
